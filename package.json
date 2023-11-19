@@ -1,0 +1,6 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@cosmjs/stargate": "^0.31.3"
+  }
+}
