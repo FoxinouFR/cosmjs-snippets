@@ -1,3 +1,9 @@
+/*
+ * This script is designed to interact with the BitSong blockchain network using Tendermint Client.
+ * It establishes a connection to the network via an RPC address found in the cosmos.directory directory, and attempts to connect to a node of the blockchain.
+ * Once connected, it fetches the data of a given validator, particularly its consensus public key.
+ * Finally, the public consensus address is converted into a string in the bitsongvalcons...xxx format.
+*/
 
 import { Tendermint37Client, pubkeyToRawAddress } from "@cosmjs/tendermint-rpc";
 import { QueryClient, setupStakingExtension } from "@cosmjs/stargate";
